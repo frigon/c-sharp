@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>204ec2f4-709d-4bcb-ac21-79d68a40af9c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Spring.Framework</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Base64Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Authentication.Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DictionaryExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObjectComparisons.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModelHistory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModelLog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Comparisons.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DateExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FilterableObservableItemsColleciton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GuidIdentifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ObservableItemsCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PartialModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities.Reflection.cs" />
+  </ItemGroup>
+</Project>

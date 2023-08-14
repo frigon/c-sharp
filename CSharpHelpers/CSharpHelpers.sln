@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33913.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CSharpHelpers", "CSharpHelpers.shproj", "{E64DE7B2-6657-425C-895D-6F92681D3861}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72E9660D-4982-4E8D-9C70-BEA50BDFE919}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CSharpHelpers.projitems*{e64de7b2-6657-425c-895d-6f92681d3861}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
